@@ -31,7 +31,7 @@ To see the training loss and test reuslts under:
 ```bash
 cd ./results/<dataset_name>/mu<mu>_rho<rho>_l<lambda_loss>_nsample<sample_noise>/trainig/
 ```
-We will upload the pretrained model for each dataset after our paper is published.
+We will upload the pretrained models for each dataset after our paper is published.
 
 
 ## Advanced
