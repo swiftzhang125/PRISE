@@ -18,9 +18,12 @@ Please note that changing the data path in the ./src/data_read.py if necessary.
 
 
 ## Usage
-To train a model to do the alignment:
+To train a model to estimate the homography:
+* Find a good initialization for the homography estimation
+* Train the PRISE model
 ```bash
 cd src
+sh create_checkpoints.py
 sh run.sh
 ```
 
