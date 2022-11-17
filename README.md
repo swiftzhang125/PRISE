@@ -12,6 +12,6 @@ pip install requirements.txt
 
 
 ## Dataset
-You can download follow the dataset preparation [here](https://github.com/placeforyiming/CVPR21-Deep-Lucas-Kanade-Homography). We will upload our dataset after our paper is published.
+You can follow the dataset preparation [here](https://github.com/placeforyiming/CVPR21-Deep-Lucas-Kanade-Homography). We will upload our dataset after our paper is published.
 
 
