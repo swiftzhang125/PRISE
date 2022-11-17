@@ -3,6 +3,8 @@ Demo code for our proposed PRISE model on GoogleMap, GoogleEarth, and MSCOCO dat
 
 
 ## Requirements
+Create a new anaconda environment and install all required packages before runing the code.
+```bash
 conda create --name prise
 conda activate prise
 pip install requirements.txt
