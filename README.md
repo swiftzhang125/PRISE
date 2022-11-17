@@ -30,6 +30,8 @@ cd ./results/<dataset_name>/mu<mu>_rho<rho>_l<lambda_loss>_nsample<sample_noise>
 ```
 We will upload the pretrained model for each dataset after our paper is published.
 
+
+## Advanced
 To change the hyperparameters:
 ```bash
 cd ./src/settings.py
