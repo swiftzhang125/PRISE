@@ -19,12 +19,12 @@ Please note that changing the data path in the ./src/data_read.py if necessary.
 
 ## Usage
 To train a model to estimate the homography:
-* Find a good initialization for the homography estimation
-* Train the PRISE model
+* Step1: Finding a good initialization for the homography estimation
+* Step2: Train the PRISE model
 ```bash
 cd src
-sh create_checkpoints.py
-sh run.sh
+sh create_checkpoints.py # step1
+sh run.sh # step2
 ```
 
 To see the training loss and test reuslts under:
