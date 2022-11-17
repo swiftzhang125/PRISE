@@ -13,6 +13,7 @@ pip install requirements.txt
 
 ## Dataset
 You can follow the dataset preparation [here](https://github.com/placeforyiming/CVPR21-Deep-Lucas-Kanade-Homography). We will upload our dataset after our paper is published.
+
 Please note that changing the data path in the ./src/data_read.py if necessary.
 
 
@@ -23,13 +24,13 @@ cd src
 sh run.sh
 ```
 
-To show the training loss and test reuslts under:
+To see the training loss and test reuslts under:
 ```bash
 cd ./results/<dataset_name>/mu<mu>_rho<rho>_l<lambda_loss>_nsample<sample_noise>/trainig/
 ```
 We will upload the pretrained model for each dataset after our paper is published.
 
-To change the hyperparameter:
+To change the hyperparameters:
 ```bash
 cd ./src/settings.py
 ```
