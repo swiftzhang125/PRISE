@@ -37,7 +37,11 @@ We will upload the pretrained models for each dataset after our paper is publish
 ## Advanced
 To change the hyperparameters:
 ```bash
-cd ./src/settings.py
+cd ./src/ # and modify the settings.py
+```
+If you are looking for Pytorch implementation of our Star-Convex Constraints
+```bash
+cd ./py-sc/
 ```
 
 ## Publication
