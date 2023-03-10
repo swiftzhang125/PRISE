@@ -1,5 +1,5 @@
-# PRISE
-Demo code for our proposed PRISE model on GoogleMap, GoogleEarth, and MSCOCO dataset.
+# PRISE: Demystifying Deep Lucas-Kanade with Strongly Star-Convex Constraints for Multimodel Image Alignment
+Demo code for our proposed PRISE method on GoogleMap, GoogleEarth, and MSCOCO dataset.
 
 
 ## Requirements
