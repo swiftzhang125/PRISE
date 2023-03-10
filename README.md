@@ -42,5 +42,13 @@ cd ./src/settings.py
 
 ## Publication
 Please cite our papers if you use our idea or codes:
+'''bash
+@inproceedings{zhang2023prise,
+  title={PRISE: Demystifying Deep Lucas-Kanade with Strongly Star-Convex Constraints for Multimodel Image Alignment},
+  author={Zhang, Yiqing and Xinming, Huang and Zhang, Ziming},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2023}
+}
+'''
 
 
