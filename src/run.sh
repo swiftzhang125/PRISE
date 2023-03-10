@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=0 python train_level_one.py
+CUDA_VISIBLE_DEVICES=0 python train_level_two.py
+CUDA_VISIBLE_DEVICES=0 python train_level_three.py
+CUDA_VISIBLE_DEVICES=0 python test_level_three.py

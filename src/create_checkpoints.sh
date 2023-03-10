@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=0 python train_regression_original.py
+CUDA_VISIBLE_DEVICES=0 python train_regression_first.py
+CUDA_VISIBLE_DEVICES=0 python train_regression_second.py
+CUDA_VISIBLE_DEVICES=0 python train_regression_third.py
