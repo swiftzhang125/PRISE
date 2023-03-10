@@ -41,6 +41,6 @@ cd ./src/settings.py
 ```
 
 ## Publication
-
+Please cite our papers if you use our idea or codes:
 
 
