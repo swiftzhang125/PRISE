@@ -1,8 +1,8 @@
 # PRISE: Demystifying Deep Lucas-Kanade with Strongly Star-Convex Constraints for Multimodel Image Alignment
-Demo code for our proposed PRISE method on GoogleMap, GoogleEarth, and MSCOCO dataset.
+Demo code for our proposed **PRISE** on GoogleMap, GoogleEarth, and MSCOCO datasets.
 
 ## Introduction
-We propose PRISE to enforce the neural network to approximately learn a star-convex loss landscape around the ground truth give any data to facilitate the convergence of the LK method to the ground truth through the high dimensional space defined by the network.
+We proposed **PRISE** to enforce the neural network to approximately learn a star-convex loss landscape around the ground truth give any data to facilitate the convergence of the LK method to the ground truth through the high dimensional space defined by the network.
 
 <div align=center><img src="https://github.com/swiftzhang125/PRISE/blob/main/image/fig1.png" width="500" height="350" alt="Compared with DeepLK"/></div>
 
