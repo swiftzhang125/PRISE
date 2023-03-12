@@ -42,6 +42,7 @@ cd ./results/<dataset_name>/mu<mu>_rho<rho>_l<lambda_loss>_nsample<sample_noise>
 ```
 
 ## Performance
+Evaluation results on MSCOCO dataset.
 | Method  | PE < 0.1 | PE < 0.5 | PE < 1| PE < 3| PE < 5 | PE < 10 | PE < 20 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |------------- |------------- |
 | SIFT + RANSAC  |  0.00 |  4.70 | 68.32 | 84.21 | 90.32 | 95.26 |  96.55 |
