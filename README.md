@@ -41,6 +41,12 @@ To see the training loss and test reuslts under:
 cd ./results/<dataset_name>/mu<mu>_rho<rho>_l<lambda_loss>_nsample<sample_noise>/trainig/
 ```
 
+## Performance
+| Method  | PE < 0.1 | PE < 0.5 | PE < 1| PE < 3| PE < 5 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| SIFT + RANSAC  | 0.00 | 4.70 | 68.32 | 84.21 | 90.32 | 95.26 | 96.55 |
+| SIFT + MAGSAC  | 0.00 | 3.66 | 76.27 | 93.26 | 94.22 | 95.32 | 97.26 |
+
 
 ## Advanced
 To change the hyperparameters:
