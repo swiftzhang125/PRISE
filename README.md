@@ -2,6 +2,9 @@
 Demo code for our proposed PRISE method on GoogleMap, GoogleEarth, and MSCOCO dataset.
 
 ## Introduction
+We propose PRISE to enforce the neural network to approximately learn a star-convex loss landscape around the ground truth give any data to facilitate the convergence of the LK method to the ground truth through the high dimensional space defined by the network.
+
+![image]()
 
 
 ## Requirements
