@@ -89,7 +89,7 @@ cd ./py-sc/
 
 ## Publication
 Please cite our papers if you use our idea or code:
-```bash
+```
 @inproceedings{zhang2023prise,
   title={PRISE: Demystifying Deep Lucas-Kanade with Strongly Star-Convex Constraints for Multimodel Image Alignment},
   author={Zhang, Yiqing and Xinming, Huang and Zhang, Ziming},
