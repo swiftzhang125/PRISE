@@ -54,9 +54,9 @@ class starConvexLoss(nn.Module):
 
             noise2 = torch.sum(noise ** 2)
             
-            # equ2 equ3
-            sc1 = torch.clamp(wstar - w + self.mu * noise2 / 2, min=0)
-            sc2 = torch.clamp(wtidle - (1-self.lam)*wstar - self.lam * w + self.mu * self.lam * (1 - self.lam) * noise2 / 2, min=0)
+            # equ1 equ2
+            sc1 = torch.clamp(wstar - wtidle + self.mu * noise2 / 2, min=0)
+            sc2 = torch.clamp(wtidle - (1-self.lam) * wstar - self.lam * w + self.mu * self.lam * (1 - self.lam) * noise2 / 2, min=0)
 
             # max
             if self.agg == 'max':
