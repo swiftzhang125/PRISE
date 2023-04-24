@@ -78,6 +78,12 @@ Evaluation results on GoogleMap dataset.
 | **PRISE**| **17.47** | **48.13** | **56.93** | **76.21** | **80.04** | **86.13** | **94.02** |
 
 ## Advanced
+Pretrain models can be found:
+```
+GoogleEarth https://www.dropbox.com/s/818pq5sabzbm8or/GE.zip?dl=0
+GoogleMap   https://www.dropbox.com/s/6ltqnm4vm91s4hs/GM.zip?dl=0
+MSCOCO      https://www.dropbox.com/s/4p4k5o3r4zn7yys/MSCOCO.zip?dl=0
+```
 To change the hyperparameters:
 ```bash
 cd ./src/ # and modify the settings.py
